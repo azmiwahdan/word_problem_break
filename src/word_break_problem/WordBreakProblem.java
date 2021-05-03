@@ -77,7 +77,7 @@ public class WordBreakProblem {
                     getAllpossibilities(j - 1, str, dp, isOptimal);
                     stack.pop();
                     if (isOptimal) {
-                        break; // to get just one optimal solution(The fewest number of words from dictionary)
+                        break;
                     }
                 }
 
